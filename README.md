@@ -1,4 +1,4 @@
-# 🎌 Custom Alert Overlay for Tako / Saweria
+# 🎌 Custom Alert Overlay for Tako
 
 Koleksi template Custom Alert Overlay interaktif dan estetik untuk platform streaming Tako atau Saweria. Buat tampilan live stream kamu jadi makin menarik, interaktif, dan sedap dipandang mata oleh para penonton!
 
@@ -13,7 +13,7 @@ Berikut adalah beberapa pilihan template overlay anime yang sudah tersedia dan s
   <img src="https://raw.githubusercontent.com/shiroinekoo/Tako-Overlay/main/asset/preview%20overlay/mikasa-chibi-overlay.png" width="100%" alt="Mikasa Overlay Preview">
 
 * **Marin Kitagawa (My Dress-Up Darling)**  
-  *(Contoh preview Marin akan segera ditambahkan / sesuaikan link gambar kamu di sini)*
+  <img src="https://github.com/shiroinekoo/Tako-Overlay/blob/main/asset/preview%20overlay/marin-kitagawa-chibi-overlay.png" width="100%" alt="Marin Overlay Preview">
 
 ---
 
