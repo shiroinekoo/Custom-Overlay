@@ -9,10 +9,10 @@ Ingin request karakter atau tema anime tertentu? Yuk, ajukan ide kamu melalui [*
 ## 🖼️ Galeri Preview Overlay
 Berikut adalah beberapa pilihan template overlay anime yang sudah tersedia dan siap pakai:
 
-* **Mikasa Ackerman (Attack on Titan)**  
+* [**Mikasa Ackerman (Attack on Titan)**](https://github.com/shiroinekoo/Tako-Overlay/blob/main/template/mikasa_chibi)  
   <img src="https://raw.githubusercontent.com/shiroinekoo/Tako-Overlay/main/asset/preview%20overlay/mikasa-chibi-overlay.png" width="100%" alt="Mikasa Overlay Preview">
 
-* **Marin Kitagawa (My Dress-Up Darling)**  
+* [**Marin Kitagawa (My Dress-Up Darling)**](https://github.com/shiroinekoo/Tako-Overlay/blob/main/template/marin_chibi)  
   <img src="https://github.com/shiroinekoo/Tako-Overlay/blob/main/asset/preview%20overlay/marin-chibi-overlay.png" width="100%" alt="Marin Overlay Preview">
 
 ---
@@ -20,11 +20,11 @@ Berikut adalah beberapa pilihan template overlay anime yang sudah tersedia dan s
 ## 🚀 Cara Pemasangan
 Ikuti langkah-langkah mudah di bawah ini untuk memasang template ke OBS Studio:
 
-1. **Pilih Template:** Buka folder template overlay yang kamu inginkan di repositori ini.
+1. **Pilih Template:** Buka folder [template](https://github.com/shiroinekoo/Tako-Overlay/tree/main/template) overlay yang kamu inginkan di repositori ini.
 2. **Salin Kode:** Masuk ke file `index.html` dari template pilihanmu, lalu **salin seluruh isi kodenya**.
-3. **Buka Dashboard Tako/Saweria:** Masuk ke dashboard akun streaming kamu, lalu cari menu **Overlay / Custom HTML CSS**.
+3. **Buka Dashboard Tako:** Buka [Tako](https://tako.id/c/NavLeb/overlay/alert) Lalu pilih Tema-> Custom HTML.
 4. **Tempel Kode:** Tempelkan kode yang sudah disalin ke dalam editor yang tersedia, lalu simpan (*Save*).
-5. **Pasang di OBS:** Salin URL widget dari Tako/Saweria, lalu tambahkan sebagai **Browser Source** di OBS Studio kamu.
+5. **Pasang di OBS:** Salin URL widget dari Tako, lalu tambahkan sebagai **Browser Source** di OBS Studio kamu.
 
 ---
 
@@ -37,7 +37,7 @@ Kamu bisa dengan mudah mengubah tampilan teks, warna, hingga jenis font langsung
 
 ---
 
-## ☕ Support & Commission
+## ☕ Support
 Suka dengan template-template ini dan ingin mendukung pengembangan proyek agar terus update? Kamu bisa memberikan dukungan melalui traktir kopi atau donasi di bawah ini:
 
 * **Tautan Donasi:** [Klik di sini untuk Donasi / Traktir](https://saweria.co/shiroinekoo) *(Ganti dengan link saweria/tako kamu)*
@@ -46,5 +46,5 @@ Suka dengan template-template ini dan ingin mendukung pengembangan proyek agar t
 
 ---
 
-## 📄 Lisensi
+## 📄 License
 Proyek ini bersifat *open-source* dan bebas digunakan oleh siapa saja untuk keperluan live streaming di bawah lisensi [MIT](./LICENSE). Silakan gunakan, modifikasi, dan bagikan ulang sesuka hati!
