@@ -12,7 +12,7 @@ Koleksi template Custom Alert Overlay interaktif dan estetik untuk platform stre
 ---
 
 ## 💡 Request Karakter & Kontribusi
-Punya ide karakter anime favorit untuk dijadikan tema overlay berikutnya? Kamu bisa mengajukannya melalui **[Pull Request](https://github.com/shiroinekoo/Tako-Overlay/pulls)** (sertakan klik *function* atau kode pendukungnya), atau buat laporan di menu *Issue*!
+Punya ide karakter anime favorit untuk dijadikan tema overlay berikutnya? Kamu bisa mengajukannya melalui **[Pull Request](https://github.com/shiroinekoo/Tako-Overlay/pulls)**
 
 ---
 
@@ -30,9 +30,9 @@ Berikut adalah beberapa pilihan template overlay anime yang sudah tersedia dan s
 ## 🚀 Cara Pemasangan di Tako / Saweria
 Ikuti langkah-langkah mudah di bawah ini untuk memasang template ke OBS Studio:
 
-1. **Pilih Template:** Masuk ke folder template overlay pilihanmu di repositori ini.
+1. **Pilih Template:** Masuk ke folder [template](/template) overlay pilihanmu di repositori ini.
 2. **Salin Code:** Buka file `index.html` dari template tersebut, lalu salin seluruh isi kodenya.
-3. **Masukkan ke Tako:** Buka dashboard **Tako / Saweria** kamu, masuk ke bagian **Overlay / Custom HTML CSS**, lalu tempel (*paste*) kode yang sudah disalin ke dalam editor.
+3. **Masukkan ke Tako:** Buka dashboard [**Tako**](https://tako.id/c/NavLeb/overlay/alert) kamu, masuk ke bagian **Arlert -> Custom HTML CSS**, lalu (*paste*) kode yang sudah disalin ke dalam editor.
 4. **Pasang di OBS:** Salin URL Widget dari Tako, lalu tambahkan ke OBS Studio sebagai **Browser Source**. Atur ukuran properti *width* dan *height* sesuai kebutuhan stream kamu.
 
 ---
