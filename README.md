@@ -2,7 +2,7 @@
 
 Koleksi template Custom Alert Overlay interaktif dan estetik untuk platform streaming Tako atau Saweria. Buat tampilan live stream kamu jadi makin menarik, interaktif, dan sedap dipandang mata oleh para penonton!
 
-Ingin request karakter atau tema anime tertentu? Yuk, ajukan ide kamu melalui **Pull Request** di repositori ini (pastikan menyertakan klik fungsi/kode yang sesuai)!
+Ingin request karakter atau tema anime tertentu? Yuk, ajukan ide kamu melalui [**Pull Request**](https://github.com/shiroinekoo/Tako-Overlay/pulls)
 
 ---
 
