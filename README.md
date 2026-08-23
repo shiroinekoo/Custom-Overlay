@@ -24,7 +24,7 @@ Berikut adalah beberapa pilihan template overlay anime yang sudah tersedia dan s
   <img src="https://raw.githubusercontent.com/shiroinekoo/Tako-Overlay/main/asset/preview%20overlay/mikasa-chibi-overlay.png" width="100%" alt="Mikasa Overlay Preview">
 
 * **Marin Kitagawa (My Dress-Up Darling)**  
-  [Template](./template/marin_chibi) | [GIF Preview](./asset/preview overlay/marin-chibi-overlay.png)  
+  [Template](./template/marin_chibi) | [GIF Preview](./asset/previewoverlay/marin-chibi-overlay.png)  
   *(Tambahkan link/gambar preview Marin di sini)*
 
 ---
