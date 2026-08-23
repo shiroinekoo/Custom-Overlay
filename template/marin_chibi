@@ -51,7 +51,7 @@
         height: 140px; /* Tinggi bingkai latar belakang */
         display: flex;
         align-items: center;
-        /* Padding diubah: padding kanan diperbesar untuk ruang karakter, padding kiri disesuaikan */
+        /* Padding kanan diperbesar untuk ruang karakter Marin di kanan */
         padding: 10px 170px 10px 20px; 
         border-radius: 16px;
         box-shadow: 0 6px 14px rgba(0, 0, 0, 0.7);
@@ -80,11 +80,11 @@
         z-index: 1;
     }
 
-    /* Maskot dipindah ke Sebelah Kanan dengan Efek Pop-out (Mencuat ke Atas) */
+    /* Maskot di Sebelah Kanan dengan Efek Pop-out (Mencuat ke Atas) */
     .mascot {
         position: absolute;
         bottom: 0;
-        right: 10px; /* Menggunakan right agar berada di sisi kanan */
+        right: 10px; 
         z-index: 3;
         height: 185px; /* Dibuat lebih tinggi dari container (140px) agar kepalanya keluar */
         pointer-events: none;
@@ -97,7 +97,7 @@
         width: auto;
         object-fit: contain;
         display: block;
-        filter: drop-shadow(-4px 6px 8px rgba(0, 0, 0, 0.85)); /* Bayangan dibalik arahnya agar pas di kanan */
+        filter: drop-shadow(-4px 6px 8px rgba(0, 0, 0, 0.85));
     }
 
     .left-content {
@@ -152,16 +152,17 @@
         <div class="left-content">
             <div class="text">
                 <div>
-                    <span class="amount">{{formattedAmount}}</span> Dari <span class="donator">{{gifterName}}</span>
+                    <span class="amount">IDR 160.000</span> Dari <span class="donator">NavLeb</span>
                 </div>
-                <span class="message">{{message}}</span>
+                <!-- Pesan dengan emoji bertema Marin / Gyaru style -->
+                <span class="message">Semangat terus live-nya bang! 💖 Semoga makin makin lancar rezeki & streaming-nya via Tako ✨🎀</span>
             </div>
         </div>
     </div>
 
     <div class="mascot">
-        <!-- Karakter Marin diposisikan di sebelah kanan banner -->
-        <img src="https://github.com/shiroinekoo/Tako-Overlay/blob/main/asset/mascot/Marin-Kitagawa-Chibi.png" alt="Marin Mascot">
+        <!-- Karakter Marin Chibi di sebelah kanan dengan path asset terbaru -->
+        <img src="https://raw.githubusercontent.com/shiroinekoo/Tako-Overlay/main/asset/mascot/Marin-Kitagawa-Chibi.png" alt="Marin Mascot">
     </div>
 </div>
 
