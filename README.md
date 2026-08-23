@@ -47,4 +47,4 @@ Suka dengan template-template ini dan ingin mendukung pengembangan proyek agar t
 ---
 
 ## 📄 License
-Proyek ini bersifat *open-source* dan bebas digunakan oleh siapa saja untuk keperluan live streaming di bawah lisensi [MIT](./LICENSE). Silakan gunakan, modifikasi, dan bagikan ulang sesuka hati!
+Proyek ini bersifat *open-source* dan bebas digunakan oleh siapa saja untuk keperluan live streaming di bawah lisensi [MIT](https://github.com/shiroinekoo/Tako-Overlay/blob/main/License). Silakan gunakan, modifikasi, dan bagikan ulang sesuka hati!
