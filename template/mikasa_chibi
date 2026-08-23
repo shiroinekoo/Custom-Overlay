@@ -29,26 +29,31 @@
         font-family: 'AOTFont', 'Forte', 'Impact', sans-serif;
         color: var(--text-white);
         overflow: hidden !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
+    /* Wrapper diberi padding-top agar kepala Mikasa tidak terpotong saat mencuat */
     .wrapper {
         position: relative;
         width: 100%;
-        height: 100%;
+        max-width: 800px;
+        height: 200px;
         display: flex;
-        align-items: center;
-        padding: 12px 15px 0px 5px; 
+        align-items: flex-end;
+        padding-top: 40px; /* Ruang ekstra di atas untuk efek pop-out */
     }
 
     .container {
         position: relative;
         width: 100%;
+        height: 140px; /* Tinggi bingkai latar belakang */
         display: flex;
         align-items: center;
-        padding: 12px 140px 12px 20px;
+        padding: 10px 20px 10px 170px; /* Padding kiri besar (170px) agar teks tidak menutupi Mikasa */
         border-radius: 16px;
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
-        height: calc(100% - 3px);
+        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.7);
     }
 
     .background-img {
@@ -74,16 +79,16 @@
         z-index: 1;
     }
 
+    /* Maskot Mikasa di Sebelah Kiri dengan Efek Pop-out (Mencuat ke Atas) */
     .mascot {
         position: absolute;
-        top: 0;
         bottom: 0;
-        right: 10px;
+        left: 10px; /* Dipindah ke kiri seperti sampel Mio */
         z-index: 3;
-        height: 100%;
+        height: 185px; /* Dibuat lebih tinggi dari container (140px) agar kepalanya keluar */
         pointer-events: none;
         display: flex;
-        align-items: center;
+        align-items: flex-end;
     }
 
     .mascot img {
@@ -91,7 +96,7 @@
         width: auto;
         object-fit: contain;
         display: block;
-        filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.85));
+        filter: drop-shadow(4px 6px 8px rgba(0, 0, 0, 0.85));
     }
 
     .left-content {
@@ -101,12 +106,13 @@
         text-align: center;
     }
 
+    /* Ukuran Teks Donasi */
     .text {
-        font-size: 22px; 
+        font-size: 24px; 
         font-weight: 800;
         letter-spacing: 0.05rem;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.95);
-        line-height: 1.3;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.95);
+        line-height: 1.25;
         overflow-wrap: break-word;
     }
 
@@ -127,8 +133,8 @@
     /* Isi Pesan: Putih */
     .message {
         display: block;
-        margin-top: 4px;
-        font-size: 16px;
+        margin-top: 6px;
+        font-size: 17px;
         font-weight: 600;
         color: var(--text-white);
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
@@ -152,7 +158,7 @@
     </div>
 
     <div class="mascot">
-        <img src="https://raw.githubusercontent.com/shiroinekoo/Custom-Overlay/main/asset/Mikasa-Ackerman-PNG-Cutout.png" alt="Mikasa Mascot">
+        <img src="https://raw.githubusercontent.com/shiroinekoo/Tako-Overlay/main/asset/Mikasa-Ackerman-PNG-Cutout.png" alt="Mikasa Mascot">
     </div>
 </div>
 
