@@ -7,7 +7,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/shiroinekoo/Tako-Overlay?style=flat-square&color=yellow)](https://github.com/shiroinekoo/Tako-Overlay/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/shiroinekoo/Tako-Overlay?style=flat-square&color=orange)](https://github.com/shiroinekoo/Tako-Overlay/network/members)
 
-Koleksi template Custom Alert Overlay interaktif dan estetik untuk platform streaming Tako atau Saweria.
+Koleksi template Custom Alert Overlay interaktif dan estetik untuk platform streaming **Tako**.
 Dirancang khusus agar pas di layar OBS Studio dan mudah dibaca oleh penonton!
 
 </div>
@@ -18,9 +18,9 @@ Dirancang khusus agar pas di layar OBS Studio dan mudah dibaca oleh penonton!
 
 - [💡 Request Karakter & Kontribusi](#-request-karakter--kontribusi)
 - [🖼️ Galeri Preview Overlay](#️-galeri-preview-overlay)
-- [🚀 Cara Pemasangan di Tako / Saweria](#-cara-pemasangan-di-tako--saweria)
+- [🚀 Cara Pemasangan di Tako](#-cara-pemasangan-di-tako)
 - [⚙️ Cara Kustomisasi](#️-cara-kustomisasi)
-- [☕ Support & Commission](#-support--commission)
+- [☕ Support](#-support)
 - [📄 Lisensi](#-lisensi)
 
 ---
@@ -52,7 +52,7 @@ Berikut adalah beberapa pilihan template overlay anime yang sudah tersedia dan s
 
 ---
 
-## 🚀 Cara Pemasangan di Tako / Saweria
+## 🚀 Cara Pemasangan di Tako
 
 Ikuti langkah-langkah mudah di bawah ini untuk memasang template ke OBS Studio:
 
@@ -77,7 +77,7 @@ Kamu bisa menyesuaikan tampilan overlay dengan mudah langsung di dalam kode HTML
 
 Suka dengan template-template ini dan ingin mendukung pengembangan proyek agar terus update? Kamu bisa memberikan dukungan melalui traktir kopi atau donasi di bawah ini:
 
-* **Link Donasi Saweria/Tako:** [Klik di sini untuk Donasi](https://saweria.co/shiroinekoo)
+* **Link Donasi:** [Klik di sini untuk Donasi](https://saweria.co/shiroinekoo)
 * **Scan QRIS:** *(akan ditambahkan segera)*
 
 ---
