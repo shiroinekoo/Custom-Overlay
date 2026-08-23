@@ -1,4 +1,4 @@
-# Tako Custom Overlay
+# Tako Custom Overlay - Mikasa Ackerman Theme
 
 Custom Alert Overlay untuk Tako / Saweria dengan tema **Mikasa Ackerman (Attack on Titan)**. Dirancang khusus agar pas di layar OBS Studio dan mudah dibaca oleh penonton.
 
