@@ -2,18 +2,17 @@
 <html>
 <head>
 <style>
-    /* Import Font bertema Anime */
+
     @font-face {
         font-family: 'AOTFont';
         src: url('https://fonts.cdnfonts.com/s/72813/Tschichold-Bold.woff') format('woff');
         font-weight: bold;
-    }
 
+    }
     :root {
-        /* Palet Warna disesuaikan dengan Marin Kitagawa */
-        --jacket-brown: #ff69b4;   /* Pink cerah ala Marin */
-        --scarf-red: #00d2ff;      /* Biru cyan kontras */
-        --text-white: #ffffff;     /* Putih */
+        --jacket-brown: #ff69b4; 
+        --scarf-red: #00d2ff;    
+        --text-white: #ffffff;     
     }
 
     * {
@@ -34,7 +33,6 @@
         align-items: center;
     }
 
-    /* Wrapper diberi padding-top agar kepala karakter tidak terpotong saat mencuat */
     .wrapper {
         position: relative;
         width: 100%;
@@ -42,16 +40,15 @@
         height: 200px;
         display: flex;
         align-items: flex-end;
-        padding-top: 40px; /* Ruang ekstra di atas untuk efek pop-out */
+        padding-top: 40px;
     }
 
     .container {
         position: relative;
         width: 100%;
-        height: 140px; /* Tinggi bingkai latar belakang */
+        height: 140px;
         display: flex;
         align-items: center;
-        /* Padding kanan diperbesar untuk ruang karakter Marin di kanan */
         padding: 10px 170px 10px 20px; 
         border-radius: 16px;
         box-shadow: 0 6px 14px rgba(0, 0, 0, 0.7);
@@ -80,13 +77,12 @@
         z-index: 1;
     }
 
-    /* Maskot di Sebelah Kanan dengan Efek Pop-out (Mencuat ke Atas) */
     .mascot {
         position: absolute;
         bottom: 0;
         right: 10px; 
         z-index: 3;
-        height: 185px; /* Dibuat lebih tinggi dari container (140px) agar kepalanya keluar */
+        height: 185px;
         pointer-events: none;
         display: flex;
         align-items: flex-end;
@@ -107,7 +103,6 @@
         text-align: center;
     }
 
-    /* Ukuran Teks Donasi */
     .text {
         font-size: 24px; 
         font-weight: 800;
@@ -117,21 +112,18 @@
         overflow-wrap: break-word;
     }
 
-    /* Nominal Uang */
     .amount {
         color: var(--jacket-brown);
         font-weight: 800;
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
     }
 
-    /* Nama Pengirim */
     .donator {
         color: var(--scarf-red);
         font-weight: 800;
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
     }
-
-    /* Isi Pesan: Putih */
+    
     .message {
         display: block;
         margin-top: 6px;
@@ -146,7 +138,6 @@
 
 <div class="wrapper">
     <div class="container">
-        <!-- Background baru -->
         <img alt="Background" src="https://images3.alphacoders.com/753/thumb-1920-753192.jpg" class="background-img">
         
         <div class="left-content">
@@ -154,14 +145,12 @@
                 <div>
                     <span class="amount">{{formattedAmount}}</span> Dari <span class="donator">{{gifterName}}</span>
                 </div>
-                <!-- Pesan dengan emoji bertema Marin / Gyaru style -->
                 <span class="message">{{message}}</span>
             </div>
         </div>
     </div>
 
     <div class="mascot">
-        <!-- Karakter Marin Chibi di sebelah kanan dengan path asset terbaru -->
         <img src="https://raw.githubusercontent.com/shiroinekoo/Tako-Overlay/main/asset/mascot/Marin-Kitagawa-Chibi.png" alt="Marin Mascot">
     </div>
 </div>
