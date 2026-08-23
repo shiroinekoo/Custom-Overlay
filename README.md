@@ -20,7 +20,7 @@ Punya ide karakter anime favorit untuk dijadikan tema overlay berikutnya? Kamu b
 Berikut adalah beberapa pilihan template overlay anime yang sudah tersedia dan siap pakai:
 
 * **Mikasa Ackerman (Attack on Titan)**  
-  [Template](./template/mikasa_chibi) | [GIF Preview](./asset/preview overlay/mikasa-chibi-overlay.png)  
+  [Template](./template/mikasa_chibi) | [GIF Preview](asset/preview_overlay/mikasa-chibi-overlay.png) 
   <img src="https://raw.githubusercontent.com/shiroinekoo/Tako-Overlay/main/asset/preview%20overlay/mikasa-chibi-overlay.png" width="100%" alt="Mikasa Overlay Preview">
 
 * **Marin Kitagawa (My Dress-Up Darling)**  
