@@ -7,7 +7,7 @@ Custom Alert Overlay untuk Tako / Saweria dengan tema **Mikasa Ackerman (Attack 
 ## 📸 Preview Overlay
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shiroinekoo/Tako-Overlay/main/asset/preview%20overlay/prw-mikasa-overlay.png" width="650" alt="Mikasa Overlay Preview">
+  <img src="https://raw.githubusercontent.com/shiroinekoo/Tako-Overlay/main/asset/preview%20overlay/prw-mikasa-overlay.png" width="100%" alt="Mikasa Overlay Preview">
 </p>
 
 ---
