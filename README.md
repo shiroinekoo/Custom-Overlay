@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎌 Custom Alert Overlay for Tako / Saweria
+# 🎌 Custom Alert Overlay for Tako
 
 [![GitHub License](https://img.shields.io/github/license/shiroinekoo/Tako-Overlay?style=flat-square&color=blue)](./LICENSE)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/shiroinekoo/Tako-Overlay?style=flat-square&color=green)](https://github.com/shiroinekoo/Tako-Overlay/commits/main)
@@ -12,7 +12,7 @@ Koleksi template Custom Alert Overlay interaktif dan estetik untuk platform stre
 ---
 
 ## 💡 Request Karakter & Kontribusi
-Punya ide karakter anime favorit untuk dijadikan tema overlay berikutnya? Kamu bisa mengajukannya melalui **[Pull Request](https://github.com/shiroinekoo/Tako-Overlay/pulls)** (sertakan klik *function* atau kode pendukungnya), atau buat laporan di menu *Issue*!
+Punya ide karakter anime favorit untuk dijadikan tema overlay berikutnya? Kamu bisa mengajukannya melalui **[Pull Request](/pulls)** (sertakan klik *function* atau kode pendukungnya), atau buat laporan di menu *Issue*!
 
 ---
 
@@ -20,11 +20,11 @@ Punya ide karakter anime favorit untuk dijadikan tema overlay berikutnya? Kamu b
 Berikut adalah beberapa pilihan template overlay anime yang sudah tersedia dan siap pakai:
 
 * **Mikasa Ackerman (Attack on Titan)**  
-  [Lihat Folder Template](./template/mikasa) | [GIF Preview](#)  
+  [Lihat Folder Template](./template/mikasa_chibi) | [GIF Preview](#)  
   <img src="https://raw.githubusercontent.com/shiroinekoo/Tako-Overlay/main/asset/preview%20overlay/mikasa-chibi-overlay.png" width="100%" alt="Mikasa Overlay Preview">
 
 * **Marin Kitagawa (My Dress-Up Darling)**  
-  [Lihat Folder Template](./template/marin) | [GIF Preview](#)  
+  [Lihat Folder Template](./template/marin_chibi) | [GIF Preview](#)  
   *(Tambahkan link/gambar preview Marin di sini)*
 
 ---
