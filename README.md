@@ -12,7 +12,7 @@ Koleksi template Custom Alert Overlay interaktif dan estetik untuk platform stre
 ---
 
 ## 💡 Request Karakter & Kontribusi
-Punya ide karakter anime favorit untuk dijadikan tema overlay berikutnya? Kamu bisa mengajukannya melalui **[Pull Request](/pulls)** (sertakan klik *function* atau kode pendukungnya), atau buat laporan di menu *Issue*!
+Punya ide karakter anime favorit untuk dijadikan tema overlay berikutnya? Kamu bisa mengajukannya melalui **[Pull Request](/Tako-Overlay/pulls)** (sertakan klik *function* atau kode pendukungnya), atau buat laporan di menu *Issue*!
 
 ---
 
