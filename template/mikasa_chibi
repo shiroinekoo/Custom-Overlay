@@ -2,7 +2,7 @@
 <html>
 <head>
 <style>
-    /* Import Font bertema Anime */
+    /* Import Font bertema Attack on Titan */
     @font-face {
         font-family: 'AOTFont';
         src: url('https://fonts.cdnfonts.com/s/72813/Tschichold-Bold.woff') format('woff');
@@ -10,9 +10,9 @@
     }
 
     :root {
-        /* Palet Warna disesuaikan dengan Marin Kitagawa */
-        --jacket-brown: #ff69b4;   /* Pink cerah ala Marin */
-        --scarf-red: #00d2ff;      /* Biru cyan kontras */
+        /* Palet Warna Mikasa */
+        --jacket-brown: #c88d46;   /* Coklat Jaket Scout Regiment */
+        --scarf-red: #ff3b3b;      /* Merah Syal Mikasa */
         --text-white: #ffffff;     /* Putih */
     }
 
@@ -34,7 +34,7 @@
         align-items: center;
     }
 
-    /* Wrapper diberi padding-top agar kepala karakter tidak terpotong saat mencuat */
+    /* Wrapper diberi padding-top agar kepala Mikasa tidak terpotong saat mencuat */
     .wrapper {
         position: relative;
         width: 100%;
@@ -51,8 +51,7 @@
         height: 140px; /* Tinggi bingkai latar belakang */
         display: flex;
         align-items: center;
-        /* Padding diubah: padding kanan diperbesar untuk ruang karakter, padding kiri disesuaikan */
-        padding: 10px 170px 10px 20px; 
+        padding: 10px 20px 10px 170px; /* Padding kiri besar (170px) agar teks tidak menutupi Mikasa */
         border-radius: 16px;
         box-shadow: 0 6px 14px rgba(0, 0, 0, 0.7);
     }
@@ -80,11 +79,11 @@
         z-index: 1;
     }
 
-    /* Maskot dipindah ke Sebelah Kanan dengan Efek Pop-out (Mencuat ke Atas) */
+    /* Maskot Mikasa di Sebelah Kiri dengan Efek Pop-out (Mencuat ke Atas) */
     .mascot {
         position: absolute;
         bottom: 0;
-        right: 10px; /* Menggunakan right agar berada di sisi kanan */
+        left: 10px; 
         z-index: 3;
         height: 185px; /* Dibuat lebih tinggi dari container (140px) agar kepalanya keluar */
         pointer-events: none;
@@ -97,7 +96,7 @@
         width: auto;
         object-fit: contain;
         display: block;
-        filter: drop-shadow(-4px 6px 8px rgba(0, 0, 0, 0.85)); /* Bayangan dibalik arahnya agar pas di kanan */
+        filter: drop-shadow(4px 6px 8px rgba(0, 0, 0, 0.85));
     }
 
     .left-content {
@@ -117,14 +116,14 @@
         overflow-wrap: break-word;
     }
 
-    /* Nominal Uang */
+    /* Nominal Uang: Coklat */
     .amount {
         color: var(--jacket-brown);
         font-weight: 800;
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
     }
 
-    /* Nama Pengirim */
+    /* Nama Pengirim: Merah */
     .donator {
         color: var(--scarf-red);
         font-weight: 800;
@@ -146,22 +145,21 @@
 
 <div class="wrapper">
     <div class="container">
-        <!-- Background baru -->
-        <img alt="Background" src="https://images3.alphacoders.com/753/thumb-1920-753192.jpg" class="background-img">
+        <img alt="Background" src="https://i.pinimg.com/1200x/3c/e6/d4/3ce6d41cfecdb135214b58d19bcd22c5.jpg" class="background-img">
         
         <div class="left-content">
             <div class="text">
                 <div>
-                    <span class="amount">{{formattedAmount}}</span> Dari <span class="donator">{{gifterName}}</span>
+                    <span class="amount">IDR 160.000</span> Dari <span class="donator">NavLeb</span>
                 </div>
-                <span class="message">{{message}}</span>
+                <span class="message">Semangat terus live-nya bang! 🔥 Semoga makin makin lancar rezeki & streaming-nya via Tako ⚔️✨</span>
             </div>
         </div>
     </div>
 
     <div class="mascot">
-        <!-- Karakter Marin diposisikan di sebelah kanan banner -->
-        <img src="https://github.com/shiroinekoo/Tako-Overlay/blob/main/asset/mascot/Mikasa-Ackerman-PNG-Cutout.png" alt="Mikasa Mascot">
+        <!-- Gambar Mikasa dipindah menggunakan path asset terbaru (diubah ke bentuk raw link agar tampil di OBS) -->
+        <img src="https://raw.githubusercontent.com/shiroinekoo/Tako-Overlay/main/asset/mascot/Mikasa-Ackerman-PNG-Cutout.png" alt="Mikasa Mascot">
     </div>
 </div>
 
