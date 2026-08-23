@@ -1,10 +1,8 @@
-# Tako Custom Overlay - Mikasa Ackerman Theme
+# About
+
+<img src="https://raw.githubusercontent.com/shiroinekoo/Tako-Overlay/main/asset/preview%20overlay/prw-mikasa-overlay.png" width="100%" alt="Mikasa Overlay Preview">
 
 Custom Alert Overlay untuk Tako / Saweria dengan tema **Mikasa Ackerman (Attack on Titan)**. Dirancang khusus agar pas di layar OBS Studio dan mudah dibaca oleh penonton.
-
-## 📸 Preview Overlay
-
-<img src="https://raw.githubusercontent.com/shiroinekoo/Tako-Overlay/main/asset/preview%20overlay/prw-mikasa-overlay.png" width="100%" alt="Mikasa Overlay Preview" align="center">
 
 ---
 
