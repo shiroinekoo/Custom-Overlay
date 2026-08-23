@@ -152,10 +152,10 @@
         <div class="left-content">
             <div class="text">
                 <div>
-                    <span class="amount">IDR 160.000</span> Dari <span class="donator">NavLeb</span>
+                    <span class="amount">{{formattedAmount}}</span> Dari <span class="donator">{{gifterName}}</span>
                 </div>
                 <!-- Pesan dengan emoji bertema Marin / Gyaru style -->
-                <span class="message">Semangat terus live-nya bang! 💖 Semoga makin makin lancar rezeki & streaming-nya via Tako ✨🎀</span>
+                <span class="message">{{message}}</span>
             </div>
         </div>
     </div>
