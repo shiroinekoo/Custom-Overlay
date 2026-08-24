@@ -9,7 +9,6 @@
         --yato-gold: #ffd700;
         --text-white: #f0f8ff;
         
-        --neon-blue-bright: #38b6ff;
         --blue-glow: rgba(0, 240, 255, 0.6);
         --gold-glow: rgba(255, 215, 0, 0.6);
     }
@@ -23,7 +22,7 @@
         padding: 0;
         width: 100vw;
         height: 100vh;
-        background: transparent;
+        background: transparent !important;
         font-family: 'Rajdhani', sans-serif;
         color: var(--text-white);
         overflow: hidden !important;
@@ -50,16 +49,10 @@
         align-items: center;
         padding: 10px 20px 10px 170px; 
         border-radius: 16px;
-        
-        /* Fallback background jika gambar terblokir */
         background-color: #0b132b; 
         
-        border: 2px solid var(--neon-blue-bright);
-        box-shadow: 
-            0 0 6px var(--blue-glow),
-            0 0 12px var(--blue-glow),
-            0 0 20px rgba(0, 240, 255, 0.35),
-            0 6px 16px rgba(0, 0, 0, 0.85);
+        /* Hanya bayangan lembut untuk kedalaman (tanpa neon outer glow & tanpa border) */
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.85);
     }
 
     .background-img {
@@ -70,7 +63,7 @@
         height: 100%;
         object-fit: cover;
         z-index: 0;
-        border-radius: 14px;
+        border-radius: 16px;
     }
 
     .container::before {
@@ -81,7 +74,7 @@
         width: 100%;
         height: 100%;
         background: linear-gradient(135deg, rgba(5, 12, 28, 0.8), rgba(15, 5, 25, 0.75));
-        border-radius: 14px;
+        border-radius: 16px;
         z-index: 1;
     }
 
@@ -101,7 +94,7 @@
         width: auto;
         object-fit: contain;
         display: block;
-        filter: drop-shadow(0px 4px 12px rgba(0, 240, 255, 0.5)) drop-shadow(4px 6px 8px rgba(0, 0, 0, 0.9));
+        filter: drop-shadow(4px 6px 8px rgba(0, 0, 0, 0.9));
     }
 
     .left-content {
@@ -149,7 +142,6 @@
 
 <div class="wrapper">
     <div class="container">
-        <!-- Ganti src ke link GitHub RAW milikmu setelah gambar di-upload -->
         <img alt="Background" src="https://raw.githubusercontent.com/shiroinekoo/Tako-Overlay/main/asset/background/Noragami.jpg" class="background-img">
         
         <div class="left-content">
