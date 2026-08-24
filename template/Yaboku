@@ -156,7 +156,7 @@
 
 <div class="wrapper">
     <div class="container">
-        <img alt="Background" src="https://github.com/shiroinekoo/Tako-Overlay/blob/main/asset/background/Noragami.jpg">
+        <img alt="Background" src="https://raw.githubusercontent.com/shiroinekoo/Tako-Overlay/main/asset/background/Noragami.jpg" class="background-img">
         
         <div class="left-content">
             <div class="text">
