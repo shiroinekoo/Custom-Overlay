@@ -38,12 +38,12 @@ Berikut adalah beberapa pilihan template overlay anime yang sudah tersedia dan s
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/shiroinekoo/Tako-Overlay/main/asset/preview%20overlay/mikasa-chibi-overlay.png" width="100%" alt="Mikasa Ackerman Overlay Preview">
+      <img src="https://github.com/shiroinekoo/Tako-Overlay/blob/main/template/mikasa_chibi">
       <br>
       <b><a href="./template/mikasa_chibi">Mikasa Ackerman</a></b>
     </td>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/shiroinekoo/Tako-Overlay/main/asset/preview%20overlay/marin-chibi-overlay.png" width="100%" alt="Marin Kitagawa Overlay Preview">
+      <img src="https://github.com/shiroinekoo/Tako-Overlay/blob/main/template/marin_chibi">
       <br>
       <b><a href="./template/marin_chibi">Marin Kitagawa</a></b>
     </td>
