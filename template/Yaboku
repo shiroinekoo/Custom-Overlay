@@ -2,17 +2,13 @@
 <html>
 <head>
 <style>
-    /* Import Font Google: Cinzel Decorative (Tajam & Magis) & Rajdhani (Modern & Stylized) */
     @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Rajdhani:wght@600;700&display=swap');
 
     :root {
-        /* Palet Warna Tema Yato Noragami */
-        --yato-cyan: #00f0ff;       /* Biru Cyan Khas Mata Yato */
-        --yato-gold: #ffd700;       /* Kuning Emas Koin 5 Yen / Mahkota Dewa */
-        --yato-red: #ff385c;        /* Merah Aksen Seka / Katana */
-        --text-white: #f0f8ff;      /* Putih Ice Blue */
+        --yato-cyan: #00f0ff;
+        --yato-gold: #ffd700;
+        --text-white: #f0f8ff;
         
-        /* Warna Glow & Neon Banner */
         --neon-blue-bright: #38b6ff;
         --blue-glow: rgba(0, 240, 255, 0.6);
         --gold-glow: rgba(255, 215, 0, 0.6);
@@ -55,7 +51,9 @@
         padding: 10px 20px 10px 170px; 
         border-radius: 16px;
         
-        /* Frame Neon Tema Yato */
+        /* Fallback background jika gambar terblokir */
+        background-color: #0b132b; 
+        
         border: 2px solid var(--neon-blue-bright);
         box-shadow: 
             0 0 6px var(--blue-glow),
@@ -72,7 +70,7 @@
         height: 100%;
         object-fit: cover;
         z-index: 0;
-        border-radius: 16px;
+        border-radius: 14px;
     }
 
     .container::before {
@@ -82,9 +80,8 @@
         left: 0;
         width: 100%;
         height: 100%;
-        /* Overlay Gelap Kebiruan khas malam Noragami */
-        background: linear-gradient(135deg, rgba(5, 12, 28, 0.82), rgba(15, 5, 25, 0.78));
-        border-radius: 16px;
+        background: linear-gradient(135deg, rgba(5, 12, 28, 0.8), rgba(15, 5, 25, 0.75));
+        border-radius: 14px;
         z-index: 1;
     }
 
@@ -114,7 +111,6 @@
         text-align: center;
     }
 
-    /* Font Judul Utama */
     .text {
         font-family: 'Cinzel Decorative', serif;
         font-size: 23px;
@@ -125,21 +121,18 @@
         overflow-wrap: break-word;
     }
 
-    /* Nominal / Amount -> Warna Emas Koin 5 Yen */
     .amount {
         color: var(--yato-gold);
         font-weight: 900;
         text-shadow: 0 0 10px var(--gold-glow), 2px 2px 4px rgba(0, 0, 0, 0.9);
     }
 
-    /* Nama Donatur -> Warna Cyan Mata Yato */
     .donator {
         color: var(--yato-cyan);
         font-weight: 900;
         text-shadow: 0 0 10px var(--blue-glow), 2px 2px 4px rgba(0, 0, 0, 0.9);
     }
 
-    /* Pesan Donasi */
     .message {
         font-family: 'Rajdhani', sans-serif;
         display: block;
@@ -156,6 +149,7 @@
 
 <div class="wrapper">
     <div class="container">
+        <!-- Ganti src ke link GitHub RAW milikmu setelah gambar di-upload -->
         <img alt="Background" src="https://raw.githubusercontent.com/shiroinekoo/Tako-Overlay/main/asset/background/Noragami.jpg" class="background-img">
         
         <div class="left-content">
