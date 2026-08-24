@@ -38,26 +38,26 @@ Berikut adalah beberapa pilihan template overlay anime yang sudah tersedia dan s
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="https://github.com/shiroinekoo/Tako-Overlay/raw/main/asset/preview/mikasa-chibi-overlay.png" width="100%">
+      <img src="asset/preview/mikasa-chibi-overlay.png" width="100%">
       <br>
-      <b><a href="./template/mikasa_chibi">Mikasa Ackerman</a></b>
+      <b><a href="template/mikasa_chibi">Mikasa Ackerman</a></b>
     </td>
     <td align="center" width="50%">
-      <img src="https://github.com/shiroinekoo/Tako-Overlay/raw/main/asset/preview/marin-chibi-overlay.png" width="100%">
+      <img src="asset/preview/marin-chibi-overlay.png" width="100%">
       <br>
-      <b><a href="./template/marin_chibi">Marin Kitagawa</a></b>
+      <b><a href="template/marin_chibi">Marin Kitagawa</a></b>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="asset/preview/Emilia-Satella-Overlay" width="100%">
+      <img src="asset/preview/emilia-overlay.png" width="100%">
       <br>
-      <b><a href="./template/emilia satella">Emilia Satella</a></b>
+      <b><a href="template/emilia satella">Emilia Satella</a></b>
     </td>
     <td align="center" width="50%">
-      <img src="./asset/preview/Aqua-Overlay.png" width="100%">
+      <img src="asset/preview/Aqua-Overlay.png" width="100%">
       <br>
-      <b><a href="./template/aqua">Aqua</a></b>
+      <b><a href="template/aqua">Aqua</a></b>
     </td>
   </tr>
 </table>
