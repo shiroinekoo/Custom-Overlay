@@ -50,7 +50,7 @@ Berikut adalah beberapa pilihan template overlay anime yang sudah tersedia dan s
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="https://github.com/shiroinekoo/Tako-Overlay/raw/main/asset/preview/emilia-re-zero-overlay.png" width="100%">
+      <img src="asset/preview/Emilia-Satella-Overlay" width="100%">
       <br>
       <b><a href="./template/emilia satella">Emilia Satella</a></b>
     </td>
