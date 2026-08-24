@@ -2,7 +2,6 @@
 <html>
 <head>
 <style>
-
     @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Quicksand:wght@700;800&display=swap');
 
     :root {
@@ -21,7 +20,7 @@
         padding: 0;
         width: 100vw;
         height: 100vh;
-        background: transparent;
+        background: transparent !important;
         font-family: 'Quicksand', sans-serif;
         color: var(--text-white);
         overflow: hidden !important;
@@ -37,7 +36,7 @@
         height: 200px;
         display: flex;
         align-items: flex-end;
-        padding-top: 45px; /* Memberi ruang 45px di atas banner agar kepala maskot muat */
+        padding-top: 45px; 
         padding-right: 15px;
     }
 
@@ -49,7 +48,7 @@
         align-items: center;
         padding: 10px 160px 10px 20px; 
         border-radius: 16px;
-        box-shadow: 0 6px 16px rgba(0, 162, 255, 0.35);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
     }
 
     .background-img {
@@ -71,7 +70,6 @@
         width: 100%;
         height: 100%;
         background: linear-gradient(135deg, rgba(10, 25, 50, 0.85), rgba(0, 40, 80, 0.75));
-        border: 2px solid var(--aqua-blue);
         border-radius: 16px;
         z-index: 1;
     }
@@ -81,7 +79,7 @@
         bottom: 0;
         right: 10px; 
         z-index: 3;
-        height: 180px; /* Tinggi maskot keluar lebih tinggi dari container (135px) tapi pas di wrapper */
+        height: 180px; 
         pointer-events: none;
         display: flex;
         align-items: flex-end;
@@ -92,7 +90,7 @@
         width: auto;
         object-fit: contain;
         display: block;
-        filter: drop-shadow(0px 4px 10px rgba(0, 198, 255, 0.6));
+        filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.85));
     }
 
     .left-content {
