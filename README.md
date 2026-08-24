@@ -37,36 +37,34 @@ Berikut adalah beberapa pilihan template overlay anime yang sudah tersedia dan s
 
 <table>
   <tr>
-    <td align="center" width="50%">
-      <img src="asset/preview/mikasa-chibi-overlay.png" width="100%">
+    <td align="center">
+      <img src="asset/preview/mikasa-chibi-overlay.png" width="480">
       <br>
       <b><a href="template/mikasa_chibi">Mikasa Ackerman</a></b>
     </td>
-    <td align="center" width="50%">
-      <img src="asset/preview/marin-chibi-overlay.png" width="100%">
+    <td align="center">
+      <img src="asset/preview/marin-chibi-overlay.png" width="480">
       <br>
       <b><a href="template/marin_chibi">Marin Kitagawa</a></b>
     </td>
   </tr>
   <tr>
-    <td align="center" width="50%">
-      <img src="asset/preview/emilia-overlay.png" width="100%">
+    <td align="center">
+      <img src="asset/preview/emilia-overlay.png" width="480">
       <br>
-      <b><a href="template/emilia satella">Emilia Satella</a></b>
+      <b><a href="template/emilia_satella">Emilia Satella</a></b>
     </td>
-    <td align="center" width="50%">
-      <img src="asset/preview/aqua-overlay.png" width="100%">
+    <td align="center">
+      <img src="asset/preview/aqua-overlay.png" width="480">
       <br>
       <b><a href="template/aqua">Aqua</a></b>
     </td>
   </tr>
-      </td>
-  </tr>
   <tr>
-    <td align="center" width="50%">
-      <img src="asset/preview/yabuko-overlay.png" width="100%">
+    <td align="center">
+      <img src="asset/preview/yabuko-overlay.png" width="480">
       <br>
-      <b><a href="template/yaboku">Emilia Satella</a></b>
+      <b><a href="template/yaboku">Yabuko</a></b>
     </td>
   </tr>
 </table>
