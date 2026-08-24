@@ -47,6 +47,16 @@ Berikut adalah beberapa pilihan template overlay anime yang sudah tersedia dan s
       <br>
       <b><a href="./template/marin_chibi">Marin Kitagawa</a></b>
     </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/shiroinekoo/Tako-Overlay/blob/main/asset/preview/emilia-re-zero-overlay.png">
+      <br>
+      <b><a href="./template/marin_chibi">Emilia Satella</a></b>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/shiroinekoo/Tako-Overlay/blob/main/asset/preview/aqua-konosuba-overlay.png">
+      <br>
+      <b><a href="./template/marin_chibi">Aqua</a></b>
+    </td>
   </tr>
 </table>
 
