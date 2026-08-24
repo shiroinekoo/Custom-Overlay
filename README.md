@@ -52,12 +52,12 @@ Berikut adalah beberapa pilihan template overlay anime yang sudah tersedia dan s
     <td align="center" width="50%">
       <img src="https://github.com/shiroinekoo/Tako-Overlay/raw/main/asset/preview/emilia-re-zero-overlay.png" width="100%">
       <br>
-      <b><a href="./template/emilia_re_zero">Emilia Satella</a></b>
+      <b><a href="./template/emilia satella">Emilia Satella</a></b>
     </td>
     <td align="center" width="50%">
       <img src="https://github.com/shiroinekoo/Tako-Overlay/raw/main/asset/preview/aqua-konosuba-overlay.png" width="100%">
       <br>
-      <b><a href="./template/aqua_konosuba">Aqua</a></b>
+      <b><a href="./template/aqua">Aqua</a></b>
     </td>
   </tr>
 </table>
