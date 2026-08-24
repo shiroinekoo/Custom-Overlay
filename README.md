@@ -55,9 +55,18 @@ Berikut adalah beberapa pilihan template overlay anime yang sudah tersedia dan s
       <b><a href="template/emilia satella">Emilia Satella</a></b>
     </td>
     <td align="center" width="50%">
-      <img src="asset/preview/Aqua-Overlay.png" width="100%">
+      <img src="asset/preview/aqua-overlay.png" width="100%">
       <br>
       <b><a href="template/aqua">Aqua</a></b>
+    </td>
+  </tr>
+      </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="asset/preview/yabuko-overlay.png" width="100%">
+      <br>
+      <b><a href="template/yaboku">Emilia Satella</a></b>
     </td>
   </tr>
 </table>
