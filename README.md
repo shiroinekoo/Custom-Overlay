@@ -96,7 +96,7 @@ Kamu bisa menyesuaikan tampilan overlay dengan mudah langsung di dalam kode HTML
 
 Suka dengan template-template ini dan ingin mendukung pengembangan proyek agar terus update? Kamu bisa memberikan dukungan melalui traktir kopi atau donasi di bawah ini:
 
-* **Link Donasi:** [Klik di sini untuk Donasi](https://saweria.co/shiroinekoo)
+* **Link Donasi:** [Klik di sini untuk Donasi](https://tako.id/NavLeb)
 * **Scan QRIS:** *(akan ditambahkan segera)*
 
 ---
